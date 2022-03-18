@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <!---Tentativa de Css-->
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;}
+        .content{display: flex; justify-content: center; border-color: #969696; }
+        .contato{width: 100%; max-width: 500px;font-size: 16px; background-color: #b56d24; box-shadow: 20px 20px 30px #3f250c ; box-sizing: border-box; border-radius: 50px; }
+        textarea{height: 150px;} 
+        .form{display: flex; flex-direction: column;}
+        .field{padding: 10px; margin-bottom: 15px; border: 1px solid #b56d24 ; border-radius: 5px; font-family: Arial, Helvetica, sans-serif;}
+        h1{color: white;}
+        h5{color: white;}
+        button{font-style: normal; color: white; width: 
+            60px; font-size: 16px; margin-left: 50px;}
+        
+    </style>
+</head>
+
+    <!--conteudo-->
+<body>
+
+
+    <section class="content">
+
+        <div class="contato">
+            <center><h1> Formulário de Contato</h1></center>
+            <center><h5>Prencha todos os campos</h5></center>
+
+            
+            <form class="form" method="post" action="./email.php">nome:
+                <input class="field" name="name" placeholder="nome completo">Email:
+                <input class="field" name="Email" placeholder="Email Valido">Assunto:
+                <input class="field" name="Assunt" placeholder="Assunto">mensagem:
+                <textarea class="field" name="message" placeholder="Digite sua mensagem aqui"></textarea>
+                    <div class="control">
+                        <button class="button is-link is-large" ; style="background-color: black;"; >Enviar</button>
+                        
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+    </section>
+
+
+
+           
+       
+
+
+
+    </section>
+
+    
+</body>
+</html>
